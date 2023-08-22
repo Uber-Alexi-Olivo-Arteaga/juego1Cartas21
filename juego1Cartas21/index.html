@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cartas 21</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="main.js"> </script>
+</head>
+<body>
+  <header>
+    <h1>juego de cartas 21</h1>
+  </header>
+  <main>
+    <section class="jugador">
+      <h2 class="subJM">jugador</h2>
+      <div id="cartasJugador">
+        <!-- <img class="" src="./imgs/cartas/grey_back.png"> -->
+      </div>
+    </section>
+    <section class="maquina">
+      <h2 class="subJM">maquina</h2>
+      <div id="cartasMaquina">
+        <img id="oculta" src="./imgs/cartas/red_back.png">
+      </div>
+    </section>
+  </main>
+  <div id="contenedorTJ">
+    <button id="agarrarCartas" onclick="pedir()">sacar cartas</button>
+    <button id="terminarJuego" onclick="quedarse()">terminar juego</button>
+  </div>
+  <section id="mostrarResultados">
+    <div id="mostrarCartas" class="resultados">resultados</div>
+  </section>
+  <footer>
+    <p id="pieP">Vicious Soft. - Alexi, Steven, Jampier, Feiber, Sebastian;</p>
+  </footer>
+</body>
+</html>
